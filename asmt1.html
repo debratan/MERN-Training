@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1</title>
+  </head>
+  <body id="bg">
+    <script type="text/javascript">
+      var color = window.prompt("Enter a Color name:");
+      document.getElementById("bg").style.backgroundColor = color;
+    </script>
+    <script type="text/javascript">
+      var name = window.prompt("Enter Your User name:");
+      document.write(`Hello ${name}`);
+    </script>
+    <script type="text/javascript">
+      var age = window.prompt("Enter your age:");
+      if (age < 18) {
+        window.alert(`${age}! You are not an adult.`);
+      } else {
+        window.alert(`${age}! You are an adult.`);
+      }
+    </script>
+  </body>
+</html>
