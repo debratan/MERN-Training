@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+.main{
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.pruductlist{
+  display: flex;
+  padding: 20px;
+}
+.userprofile{
+  display: flex;
+  padding: 20px;
+}
+.box1,.box2,.box3,.box4,.box5{
+  max-width: 400px;
+  padding: 20px;
+  text-align: start;
+}
