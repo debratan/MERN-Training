@@ -1,0 +1,61 @@
+.listdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.taskfield{
+    border: 1px solid rgb(124, 124, 124);
+    margin: 20px;
+    border-radius: 5px;
+    /* max-width: 800px; */
+    box-shadow: 1px 4px 8px 1px gray;
+}
+.input{
+    border: 2px solid rgb(5, 118, 224);
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+}
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+button{
+    margin: 0px 20px 0px 5px;
+    background-color: rgb(5, 118, 224);
+    color: white;
+    border-radius: 4px;
+    border: 2px;
+    padding: 5px 10px 5px 10px;
+}
+.taskname{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;    
+    padding: 0px 30px 0px 20px;
+}
+#editbtn{
+    background-color: rgb(50, 194, 62);
+}
+#deletebtn{
+    background-color: rgb(255, 66, 66);
+}
+.updatediv{
+    margin: 20px;
+}
+.taskname,.btndiv{
+    flex: 1;
+}
+.btndiv{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+.taskname{
+    text-align: left;
+}
+.complete{
+    text-decoration: line-through;
+}
