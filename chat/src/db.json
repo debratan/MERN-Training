@@ -1,0 +1,24 @@
+{
+  "messages": [
+    {
+      "id": "f2ed",
+      "sender": "current user",
+      "text": "hi"
+    },
+    {
+      "id": "d738",
+      "sender": "current user",
+      "text": "hello"
+    },
+    {
+      "id": "a8e3",
+      "sender": "current user",
+      "text": "How are you"
+    },
+    {
+      "id": "811f",
+      "sender": "current user",
+      "text": "i'm good"
+    }
+  ]
+}
